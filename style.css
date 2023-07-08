@@ -117,8 +117,14 @@ span{
     text-align: center;
     font-size: 40px;
     font-weight: 600;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 .experince{
     width: 400px;
+}
+.resume{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
