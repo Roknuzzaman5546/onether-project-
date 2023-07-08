@@ -1,9 +1,9 @@
 /* head */
 .main{
     background-color: rgb(237, 228, 226);
-    background-image: url(./header_bg.png);
+    background-image: url(./header_bg.png),url('./developer.png');
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom right,top left;
     
 }
 .head{
@@ -135,9 +135,6 @@ span{
     text-align: center;
 }
 /* footer part*/
-.icon{
-
-}
 footer{
     background-color: rgb(237, 228, 226);
     display: flex;
@@ -157,5 +154,5 @@ footer{
 }
 .scoil a{
     margin-left: 15px;
-    font-size: 30px;
+    font-size: 40px;
 }
