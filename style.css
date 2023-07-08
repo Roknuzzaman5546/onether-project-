@@ -1,3 +1,4 @@
+/* head */
 .main{
     background-color: rgb(237, 228, 226);
     background-image: url(./header_bg.png);
@@ -37,6 +38,7 @@ span{
     border: 0;
     border-radius: 5px;
 }
+/*main */
 .body{
     display: flex;
     justify-content: space-around;
@@ -57,4 +59,33 @@ span{
     font-size: 40px;
     font-weight: 700;
     margin-top: 5px;
+}
+.about{
+    background-color: rgb(237, 228, 226);
+    margin-top: 20px;
+    text-align: center;
+    width: 1400px;
+    display: block;
+    margin: 130px auto;
+    padding: 100px 0;
+}
+.about h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.about p{
+    font-size: 20px;
+    text-align: center;
+    display: block;
+}
+.tbl{
+    text-align: center;
+    display: block;
+}
+.mainfooter{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
