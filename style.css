@@ -112,3 +112,13 @@ span{
     box-shadow: 2px 4px 4px 4px rgb(197, 189, 189);
     padding: 10px;
 }
+/* resume part */
+.hh{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 600;
+    padding-top: 10px;
+}
+.experince{
+    width: 400px;
+}
