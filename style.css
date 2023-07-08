@@ -1,0 +1,60 @@
+.main{
+    background-color: rgb(237, 228, 226);
+    background-image: url(./header_bg.png);
+    background-repeat: no-repeat;
+    background-position: bottom right;
+    
+}
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items:center ; 
+    margin-left: 100px;
+    margin-right: 100px;   
+}
+.head h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+span{
+    color: coral;
+}
+.menu{
+    display: flex;
+    align-items: center;
+}
+.menu li a{
+    text-decoration: none;
+    color: black;
+}
+.menu li{
+    list-style: none;
+    padding: 15px 35px;
+}
+.btn{
+    background-color: coral;
+    padding: 12px 30px;
+    border: 0;
+    border-radius: 5px;
+}
+.body{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 30px 30px 0 150px;
+}
+.photo img{
+    width: 500px;
+}
+.write{
+    max-width: 500px;
+}
+.write h4{
+    color: rgb(58, 54, 54);
+    margin-bottom: 0;
+}
+.write h1{
+    font-size: 40px;
+    font-weight: 700;
+    margin-top: 5px;
+}
